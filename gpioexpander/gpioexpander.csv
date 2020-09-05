@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"MountingHole_Pad","H1,H2","MountingHole:MountingHole_4.3mm_M4_Pad_Via",""
+"PWR/GND","J1","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"I2C","J2","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"Port 1","J3","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"Port 2","J4","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"Port 3","J5","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"Port 4","J6","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"Port 5","J7","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"~INT","J8","Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical",""
+"1K","R1,R2","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C21190"
+"Action","SW1","Button_Switch_THT:SW_PUSH_6mm",""
+"PCA9555PW,118","U1","Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm","C128392"

@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"R1","1K","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",121.299000,-67.564000,180.000000,top
+"R2","1K","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",117.743000,-67.564000,0.000000,top
+"U1","PCA9555PW,118","TSSOP-24_4.4x7.8mm_P0.65mm",120.269000,-73.425000,0.000000,top

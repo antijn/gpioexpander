@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"R1","1K","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",121.299000,-67.564000,180.000000,top
+"R2","1K","R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",117.743000,-67.564000,0.000000,top
+"U1","PCA9555DB","SSOP-24_5.3x8.2mm_P0.65mm",120.440000,-73.425000,0.000000,top
