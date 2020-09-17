@@ -48,7 +48,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3100 7500 3100
 Wire Wire Line
-	4900 3300 7500 3200
+	4900 3300 5300 3300
 $Comp
 L power:GND #PWR0101
 U 1 1 5F4FB26E
@@ -275,28 +275,28 @@ Connection ~ 5050 4350
 $Comp
 L power:GND #PWR0112
 U 1 1 5F54F050
-P 5050 4700
-F 0 "#PWR0112" H 5050 4450 50  0001 C CNN
-F 1 "GND" H 5055 4527 50  0000 C CNN
-F 2 "" H 5050 4700 50  0001 C CNN
-F 3 "" H 5050 4700 50  0001 C CNN
-	1    5050 4700
+P 5050 4750
+F 0 "#PWR0112" H 5050 4500 50  0001 C CNN
+F 1 "GND" H 5055 4577 50  0000 C CNN
+F 2 "" H 5050 4750 50  0001 C CNN
+F 3 "" H 5050 4750 50  0001 C CNN
+	1    5050 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5F54E8D7
-P 5050 4550
-F 0 "R1" H 5120 4596 50  0000 L CNN
-F 1 "1K" H 5120 4505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 4550 50  0001 C CNN
-F 3 "~" H 5050 4550 50  0001 C CNN
-F 4 "C21190" H 5050 4550 50  0001 C CNN "LCSC"
-	1    5050 4550
+P 5050 4600
+F 0 "R1" H 5120 4646 50  0000 L CNN
+F 1 "1K" H 5120 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 4600 50  0001 C CNN
+F 3 "~" H 5050 4600 50  0001 C CNN
+F 4 "C21190" H 5050 4600 50  0001 C CNN "LCSC"
+	1    5050 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 4350 5050 4400
+	5050 4350 5050 4450
 Wire Wire Line
 	5050 4000 5050 4350
 $Comp
@@ -321,7 +321,7 @@ L Connector_Generic:Conn_01x01 J8
 U 1 1 5F57CBD9
 P 3050 2900
 F 0 "J8" H 2968 2663 50  0000 C CNN
-F 1 "~INT" H 2968 2761 50  0000 C CNN
+F 1 "~INT" H 3200 2900 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3050 2900 50  0001 C CNN
 F 3 "~" H 3050 2900 50  0001 C CNN
 	1    3050 2900
@@ -344,7 +344,7 @@ U 1 1 5F5A7348
 P 3800 6150
 F 0 "H1" V 3754 6300 50  0000 L CNN
 F 1 "MountingHole_Pad" V 3845 6300 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3800 6150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3800 6150 50  0001 C CNN
 F 3 "~" H 3800 6150 50  0001 C CNN
 	1    3800 6150
 	0    1    1    0   
@@ -355,7 +355,7 @@ U 1 1 5F5A9DAD
 P 3800 6450
 F 0 "H2" V 3754 6600 50  0000 L CNN
 F 1 "MountingHole_Pad" V 3845 6600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3800 6450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3800 6450 50  0001 C CNN
 F 3 "~" H 3800 6450 50  0001 C CNN
 	1    3800 6450
 	0    1    1    0   
@@ -587,4 +587,46 @@ Text Label 3800 3900 0    50   ~ 0
 A1
 Text Label 3800 4000 0    50   ~ 0
 A2
+Text Label 5000 4000 0    50   ~ 0
+SW1
+Text Label 3450 2900 0    50   ~ 0
+~INT
+Text Label 3400 2400 0    50   ~ 0
+SCL
+Text Label 3400 2500 0    50   ~ 0
+SDA
+Text Label 8150 2400 0    50   ~ 0
+P1_1
+Text Label 8150 2500 0    50   ~ 0
+P1_2
+Text Label 8150 2600 0    50   ~ 0
+P1_3
+Text Label 7500 2700 0    50   ~ 0
+P2_1
+Text Label 7500 2800 0    50   ~ 0
+P2_2
+Text Label 7500 2900 0    50   ~ 0
+P2_3
+Text Label 6650 3000 0    50   ~ 0
+P3_1
+Text Label 6650 3100 0    50   ~ 0
+P3_2
+Text Label 6650 3200 0    50   ~ 0
+P3_3
+Wire Wire Line
+	5300 3300 5300 3200
+Wire Wire Line
+	5300 3200 7500 3200
+Text Label 6150 3400 0    50   ~ 0
+P4_1
+Text Label 6150 3500 0    50   ~ 0
+P4_2
+Text Label 6150 3600 0    50   ~ 0
+P4_3
+Text Label 5500 3700 0    50   ~ 0
+P5_1
+Text Label 5500 3800 0    50   ~ 0
+P5_2
+Text Label 5500 3900 0    50   ~ 0
+P5_3
 $EndSCHEMATC
